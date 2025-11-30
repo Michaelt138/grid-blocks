@@ -1,0 +1,81 @@
+html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+}
+
+.container {
+      width: 100%;
+      height: 100%;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 20% 35% 20% 30%
+      
+
+
+}
+
+#cred {
+    background-color: red;
+    grid-area:re;
+    color: white;
+    
+}
+
+#corange {
+background-color: orange;
+grid-area: or;
+color: white;
+
+}
+
+#Yellow {
+      background-color: yellow;
+      grid-area: ye;
+      color: white;
+}
+
+#Green {
+      background-color: green;
+      grid-area: gr;
+      color: white;
+}
+
+#Blue {
+      background-color: blue;
+      grid-area: bl;
+      color: white;
+}
+
+#Indigo {
+      background-color: indigo;
+      grid-area: in;
+      color: white;
+}
+
+#Vilot { 
+      background-color: violet;
+      grid-area: vi;
+      color: white;
+}
+
+#Black {
+      background-color: black;
+      grid-area: bla;
+      color: white;
+}
+
+
+#Container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 2fr 1fr 2fr;
+      grid-template-areas:
+      "re re or ye"
+      "gr gr gr bl"
+      "in in vi vi"
+      "bla bla bla bla"
+      ;
+      width: 100%;
+      height: 100%;
+      gap: 5px;
+}
